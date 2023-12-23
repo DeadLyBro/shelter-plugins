@@ -32,4 +32,4 @@ I don't think BBCode to Html/Css is useful work, but I would like to thank anyon
 Also there is error for me; that is if we edit message, Discord crash. 
 But if another user edit, it's no problem. 
 If you want to edit a message, change page quickly after edit the message, or Discord will crash. 
-Of course, this was the mistake that happened to me, I don't know how it happens to others.
+Of course, this was the error that happened to me, I don't know how it happens to others.
