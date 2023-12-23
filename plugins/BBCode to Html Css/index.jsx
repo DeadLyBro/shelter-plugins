@@ -3,10 +3,16 @@ const {
     observeDom
 } = shelter;
 
-var head = document.getElementsByTagName('HEAD')[0]; 
+if ( !document.querySelector('style#DeadLyBro-BBCode-CSS') ) {
+
+	var head = document.getElementsByTagName('HEAD')[0]; 
+
 	var myStyle = document.createElement('style');
+		myStyle.id = "DeadLyBro-BBCode-CSS";
 		myStyle.innerHTML = `.DeadLyBro-BBCode { overflow: auto!important; } th, td { padding: 5px 10px!important; border: 1px solid black!important; } tr:first-child { background: #5865f2!important; } tr:not(:first-child):nth-child(odd) { background: #2b2d31!important; } table { border-radius: 5px!important; } table { border-collapse: collapse!important; margin: 10px!important; } tr:first-child th { text-align: center!important; font-weight: 600!important; } tr:not(:first-child) th { color: red!important; font-weight: 600!important; text-align: center; } `;
 	head.appendChild(myStyle);
+
+}
 
 const USERNAME_QUERY = 'div[class^=scrollerContent] div[class^=markup][class*=messageContent]';
 /* const USERNAME_QUERY = 'div[class^=markup][class*=messageContent]'; */
