@@ -1,6 +1,6 @@
 {
   "name": "BBCode to Html Css",
-  "description": "It's simply replaces BBCodes to HTML/CSS code in Chat. It's work on chat page, I disabled it for other pages. If you want to enable, edit USERNAME_QUERY.",
+  "description": "It's simply replaces BBCodes to HTML/CSS code in Chat. It's work on chat page, I disabled it for other pages. If you want to enable, edit MESSAGE_QUERY.",
   "author": "DeadLyBro",
   "hash": "<HASH_PLACEHOLDER>"
 }

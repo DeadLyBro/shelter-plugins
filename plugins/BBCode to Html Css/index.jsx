@@ -14,12 +14,12 @@ if ( !document.querySelector('style#DeadLyBro-BBCode-CSS') ) {
 
 }
 
-const USERNAME_QUERY = 'div[class^=scrollerContent] div[class^=markup][class*=messageContent]';
-/* const USERNAME_QUERY = 'div[class^=markup][class*=messageContent]'; */
+const MESSAGE_QUERY = 'div[class^=scrollerContent] div[class^=markup][class*=messageContent]';
+/* const MESSAGE_QUERY = 'div[class^=markup][class*=messageContent]'; */
 /* To enable other pages. */
 
 export function force() {
-    for (const e of document.querySelectorAll(USERNAME_QUERY)) {
+    for (const e of document.querySelectorAll(MESSAGE_QUERY)) {
         add(e, true);
     }
 }
@@ -173,7 +173,7 @@ async function onDispatch(payload) {
         return;
     }
 
-    const unObserve = observeDom(USERNAME_QUERY, (e) => {
+    const unObserve = observeDom(MESSAGE_QUERY, (e) => {
         unObserve();
         add(e);
     });
