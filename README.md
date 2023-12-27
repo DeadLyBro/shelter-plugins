@@ -41,5 +41,5 @@ Of course, this was the error that happened to me, I don't know how it happens t
 # Theme
 ## I Hate Everyone [Clean] by [DeadLyBro](https://github.com/DeadLyBro)
 ```css
-@import url(https://raw.githubusercontent.com/DeadLyBro/shelter-plugins/main/theme/iHateEveryone%20%5BClean%5D.css)
+@import url("https://github.com/DeadLyBro/shelter-plugins/raw/main/theme/iHateEveryone_Clean.theme.css")
 ```
