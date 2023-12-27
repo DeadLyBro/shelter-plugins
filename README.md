@@ -21,8 +21,10 @@ npm i @uwu/lune
 ## Usage: 
 You can build all plugins with `lune ci`
 
+ㅤㅤㅤㅤ
 
-# BBCode to Html/Css
+# Plugins
+## BBCode to Html/Css
 Copy/Paste to [Shelter](https://github.com/uwu/shelter) > Add Plugin modal;
 ```
 https://deadlybro.github.io/shelter-plugins/dist/BBCode%20to%20Html%20Css
@@ -33,3 +35,11 @@ Also there is error for me; that is if we edit message, Discord crash.
 But if another user edit, it's no problem. 
 If you want to edit a message, change page quickly after edit the message, or Discord will crash. 
 Of course, this was the error that happened to me, I don't know how it happens to others.
+
+ㅤㅤㅤㅤ
+
+# Theme
+## I Hate Everyone [Clean] by [DeadLyBro](https://github.com/DeadLyBro)
+```css
+@import url(https://raw.githubusercontent.com/DeadLyBro/shelter-plugins/main/theme/iHateEveryone%20%5BClean%5D.css)
+```
