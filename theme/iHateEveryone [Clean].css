@@ -1,0 +1,33 @@
+/**
+I hate everyone [Clean] by DeadLyBro
+27.12.2023
+**/
+
+[class^=message] [class*=avatar], 
+[class^=memberInner] [class*=avatar] > div > svg > foreignObject, 
+[id^=message-reply] [class*=replyAvatar] {
+    display: none !important;
+}
+
+[class^=memberInner] [class*=avatar] > div > svg > rect {
+    x: 0!important;
+    y: 10!important;
+}
+
+[class^=memberInner] [class*=avatar] {
+    width: 10px!important;
+    height: 10px!important;
+}
+
+[id^=message-accessories] [class^=reactions] {
+	place-self: center!important;
+	justify-content: center!important;
+}
+
+div:not([class*=systemMessage]) > [class*=contents] {
+	margin-left: -40px!important;
+}
+
+[class*=timestampVisibleOnHover] {
+	margin-left: -27.5px!important;
+}
