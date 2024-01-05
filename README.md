@@ -43,3 +43,8 @@ Of course, this was the error that happened to me, I don't know how it happens t
 ```css
 @import url("https://cdn.jsdelivr.net/gh/DeadLyBro/shelter-plugins@latest/theme/iHateEveryone_Clean.theme.css");
 ```
+## 2023 Icon Revert by [davart154](https://github.com/davart154)
+```css
+@import url("https://cdn.jsdelivr.net/gh/DeadLyBro/shelter-plugins@latest/theme/2023_icon_revert.theme.css");
+```
+
